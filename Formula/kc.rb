@@ -2,28 +2,28 @@
 class Kc < Formula
   desc "Move secrets between your own devices' OS keychains"
   homepage "https://github.com/dcode-co/1pass-keychain"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/dcode-co/1pass-keychain/releases/download/v0.1.0/kc-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "23bb912ec0aaf0c2594867a5bd4b51716952304a5695cb0434e217f19d8d8be3"
+      url "https://github.com/dcode-co/1pass-keychain/releases/download/v0.2.0/kc-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "466edb3eb7a78682956f0f71506c2b2871eea2cfe7029055df5e97ae2d5b6c7a"
     end
     on_intel do
-      url "https://github.com/dcode-co/1pass-keychain/releases/download/v0.1.0/kc-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d7bd32c78b491fd8fa0370898438edee4ec1005743c68790831226e1599136db"
+      url "https://github.com/dcode-co/1pass-keychain/releases/download/v0.2.0/kc-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d3f9be0e36e6f28d1c32275c59b0bea11fa19474cf38da7eb69671689763d9aa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dcode-co/1pass-keychain/releases/download/v0.1.0/kc-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7d89dfa5f96bd4762ab4a8d19309eb68628a63fb9024fed2d72c4272a16c8765"
+      url "https://github.com/dcode-co/1pass-keychain/releases/download/v0.2.0/kc-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "141f5fca4f92d634730dbf3e81553c05d72865cdae9baa5982311cbb2d495741"
     end
     on_intel do
-      url "https://github.com/dcode-co/1pass-keychain/releases/download/v0.1.0/kc-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f643468932aa5465b55ac4fb6c697fcc27cd69491db9f5e6e1a8def5bbb1e22b"
+      url "https://github.com/dcode-co/1pass-keychain/releases/download/v0.2.0/kc-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "e00432e78d75a2bd25bceea76d19d3fb45d1366017104b419f91cfb3c811adad"
     end
   end
 
